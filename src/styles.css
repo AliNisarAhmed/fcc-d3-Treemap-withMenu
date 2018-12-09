@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.tile {
+  /* overflow: hidden; */
+  opacity: 0.5;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: beige;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.legend-item {
+  opacity: 0.5;
+}
+
+.label {
+  font-size: 11px;
+  /* overflow: hidden; */
+}
+
+.textLabel {
+}
+
+text {
+  display: flex;
+  white-space: nowrap;
+}
